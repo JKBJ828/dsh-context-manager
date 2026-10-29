@@ -1,0 +1,6 @@
+node_modules/
+.context-manager/
+*.log
+*.bak-*
+.DS_Store
+Thumbs.db

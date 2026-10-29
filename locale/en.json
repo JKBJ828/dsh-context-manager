@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Context Manager",
+    "description": "Manage context at the bottom of the conversation: delete a turn from the model-visible context, and view or edit this session's supplementary prompt. Prompts owned by other plugins stay read-only."
+  }
+}

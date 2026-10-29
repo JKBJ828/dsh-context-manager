@@ -1,0 +1,45 @@
+{
+  "name": "dsh-context-manager",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Delete a turn from the model-visible context and edit a per-session supplementary system prompt, from the bottom of a DSH conversation.",
+  "license": "MIT",
+  "author": "JKBJ828",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JKBJ828/dsh-context-manager.git"
+  },
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "context",
+    "session"
+  ],
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": [
+        "@deepseek-ai/dsh-client-ui-conversation"
+      ]
+    }
+  }
+}

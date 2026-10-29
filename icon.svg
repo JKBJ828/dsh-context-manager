@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="Context Manager">
+  <rect width="64" height="64" rx="14" fill="#1f2a44"/>
+  <path d="M14 20a6 6 0 0 1 6-6h24a6 6 0 0 1 6 6v14a6 6 0 0 1-6 6H30l-9 8v-8h-1a6 6 0 0 1-6-6z" fill="#4c7dff"/>
+  <path d="M22 24h20M22 30h12" stroke="#eaf0ff" stroke-width="3" stroke-linecap="round"/>
+  <path d="M20 46 46 14" stroke="#ff6b6b" stroke-width="5" stroke-linecap="round"/>
+</svg>
